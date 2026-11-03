@@ -1,0 +1,19 @@
+# .NET and Dalamud build output
+**/bin/
+**/obj/
+TestResults/
+*.nupkg
+*.snupkg
+
+# IDE files
+.vs/
+.idea/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Logs and OS metadata
+*.log
+.DS_Store
+Thumbs.db

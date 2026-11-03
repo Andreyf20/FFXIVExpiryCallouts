@@ -1,0 +1,13 @@
+<Project Sdk="Dalamud.NET.Sdk/15.0.0">
+  <PropertyGroup>
+    <Version>0.1.0</Version>
+    <Author>Andrey</Author>
+    <Name>FFXIV Expiry Callouts</Name>
+    <Punchline>Hear tracked status names before they expire.</Punchline>
+    <Description>Tracks selected self-applied buffs and enemy debuffs, then sends status-name callouts to IINACT TTS with an optional sound fallback.</Description>
+    <Tags>status;buff;debuff;dot;callout</Tags>
+    <PackageLicenseExpression>GPL-3.0-or-later</PackageLicenseExpression>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+</Project>
