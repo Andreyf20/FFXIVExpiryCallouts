@@ -45,6 +45,25 @@ IINACT must be running with its OverlayPlugin WebSocket server enabled. Set or v
 
 On Linux under Wine, IINACT uses its Google TTS path by default, which needs internet access. The sound fallback activates when the WebSocket connection or send fails. IINACT does not acknowledge whether speech playback succeeded, so silent synthesis failures cannot trigger fallback.
 
+I mainly made this because Linux alternatives were not working at all for me. I also don't use Windows to test an alternative for the TTS when not using IINACT.
+
+## Roadmap/Goals
+
+Future Goals they are not in any specific order. This is mostly just a list of nice-to-haves for future reference:
+
+- Update the ugly UI, maybe something similar to XIVCombo?
+- Add option to add more spells/cds. For example, i would like to track manafont on BLM.
+- Research of a better way of handling the spell ids needed for tracking, this would be needed for ^ and also for tracking cds that are not buffs/dots probably.
+- Optimizations, since we are constantly checking all entities this could be affecting performance to some extend.
+- Better handling of multiple dots on enemies calls out every dot on every enemy and it is kinda annoying.
+- Maybe add pipeline for releases? This is already kinda worked but i don't want to test it and right now.
+
+## AI disclaimer
+
+This plugin was mostly made with AI and all the documentation was definetely made with AI.
+
+Mostly GPT-6 Luna.
+
 ## License
 
 Licensed under the GNU General Public License, version 3 or later. See [LICENSE](LICENSE).
